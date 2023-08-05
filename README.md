@@ -29,7 +29,7 @@ Unlimited customized cost reports for individuals, teams, departments, and inter
 3. **Slack Integration**: Seamlessly send cost insights directly to users or specific Slack channels.
 4. **DynamoDB-backed**: Uses DynamoDB to manage configurations, offering scalability and reliability.
 
-## Cost Report:
+## Cost report example:
 
 ```
 AWS cost report for June 2023 (Previous month):
@@ -63,7 +63,7 @@ AWS CloudShell                                     ▁            $0.00
 Total: $369.81
 ```
 
-## Example of a DynamoDB item:
+## DynamoDB item example:
 ```
 {
  "id": 3314,
@@ -81,7 +81,7 @@ Total: $369.81
 }
 ```
 
-## Item config options
+## Customized cost reports
 ```
     data = {
         'id': outer_id,
@@ -99,7 +99,7 @@ Total: $369.81
     }
 ```
 
-## Run Output:
+## Run output:
 
 When executed, the script offers a rich and detailed command line interface:
 
@@ -136,7 +136,7 @@ Summary: 2 reports were sent to Slack.
 -------------------------------------------------
 ```
 
-## Directory Structure:
+## Directory structure:
 
 ```
 .
@@ -150,7 +150,7 @@ Summary: 2 reports were sent to Slack.
 │   └── insert_data_to_dynamodb.py
 ```
 
-## Getting Started:
+## Getting started:
 
 1. Create the dynamodb table using `python3 create_dynamodb_table.py`.
 2. Insert an item into the dynamodb table and duplicate it as many as you need `python3 insert_data_to_dynamodb.py`.
