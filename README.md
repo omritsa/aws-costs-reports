@@ -24,7 +24,7 @@ Unlimited customized cost reports for individuals, teams, departments, and inter
 
 ## Features:
 
-1. **Configurable Reports**: Personalize cost reports per user or Slack channel. 
+1. **Configurable Reports**: Personalized cost reports.
 2. **Detailed Insights**: Aggregate daily and monthly costs, providing both recent and historical perspectives.
 3. **Slack Integration**: Seamlessly send cost insights directly to users or specific Slack channels.
 4. **DynamoDB-backed**: Uses DynamoDB to manage configurations, offering scalability and reliability.
